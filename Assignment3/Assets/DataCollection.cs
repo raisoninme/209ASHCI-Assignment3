@@ -39,6 +39,7 @@ namespace Oculus.Interaction.HandPosing
         private float grabWidth = Mathf.Infinity; // the size of the grabbableCube
         private float initialPos; // the initial position of the grabbableCube
         private float initialTime; // the initial timestamp of user interaction (moving the grabbableCube from A to B)
+        private float startPositionX = -0.2f; // the start position of the grabbableCube
         /*
         This template script only creates one grabbableCube. To investigate Fitts' Law, 
         we need to create many more grabbableCubes of various sizes, and move them to various distances.
@@ -48,7 +49,7 @@ namespace Oculus.Interaction.HandPosing
         private float moveSpeed = 2f; // the speed of the grabbableCube moving back to the original position
         private Vector3 originalPosition; // the original position of the grabbableCube
 
-        private int grabSizeCounter = 1; // count the number of grabbableCubes, need 3 in total
+        private int grabWidthCounter = 1; // count the number of grabbableCubes, need 3 in total
         private int grabDistanceCounter = 1; // count the number of distances, need 3 in total
         private int grabTrialCounter = 1; // count the number of grabTimes, need 10 in total
 
@@ -122,7 +123,7 @@ namespace Oculus.Interaction.HandPosing
             
             // read the grabbableCube width
             grabWidth = grabbableCube.transform.localScale.x;
-            grabDistance = Mathf.Abs(grabbableCube.transform.position.x - targetCube.transform.position.x);
+            grabDistance = Mathf.Abs(startPositionX - targetCube.transform.position.x);
 
             // read the grab status
             isGrabbed = (InteractorState.Select == handGrab.State);
@@ -172,14 +173,13 @@ namespace Oculus.Interaction.HandPosing
                         else{
                             grabDistanceCounter = 1;
                             targetCube.transform.position = new Vector3(0.2f, grabbableCube.transform.position.y, grabbableCube.transform.position.z);
-                            if(grabSizeCounter < 3){
-                                grabSizeCounter += 1;
+                            if(grabWidthCounter < 3){
+                                grabWidthCounter += 1;
                                 // move the grabbableCube and targetCube to the next size
                                 grabbableCube.transform.localScale = new Vector3(grabbableCube.transform.localScale.x + 0.02f, grabbableCube.transform.localScale.y, grabbableCube.transform.localScale.z);
                                 targetCube.transform.localScale = new Vector3(targetCube.transform.localScale.x + 0.02f, targetCube.transform.localScale.y, targetCube.transform.localScale.z);
                             }
                             else{
-                                grabSizeCounter = 1;
                                 hintText.text = "You have finished the experiment. Thank you!";
                             }
                         }

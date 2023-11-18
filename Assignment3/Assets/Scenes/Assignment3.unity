@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf970caa3fdf0064fb57a66b42fcf03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _participant: P0
+  _participant: P2
   enable: 1
   handGrab: {fileID: 964139367}
   grabbableCube: {fileID: 5063396925749407904}
