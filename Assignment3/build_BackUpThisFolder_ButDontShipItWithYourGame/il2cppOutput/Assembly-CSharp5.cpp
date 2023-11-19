@@ -267,8 +267,6 @@ struct UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5;
 struct QueryParamU5BU5D_t89F4808C20AC370F031313E4A00DEBC463777C2F;
 // System.Action
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
-// Oculus.Interaction.ActiveStateSelector
-struct ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56;
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
 // UnityEngine.Animator
@@ -327,8 +325,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
 struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
 // UnityEngine.GameObject
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
-// Oculus.Interaction.Samples.GestureDetection
-struct GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70;
 // UnityEngine.UI.Graphic
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
 // OVRTouchSample.Hand
@@ -707,7 +703,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral593C48B5B64125B2A87743E68909883CFDF40C2A
 IL2CPP_EXTERN_C String_t* _stringLiteral5A848793342F75888D40DE2AEDC507A1035ED454;
 IL2CPP_EXTERN_C String_t* _stringLiteral601F2186767331699A4F498733D910E0608B9400;
 IL2CPP_EXTERN_C String_t* _stringLiteral604773D3DBC620869237443189180C03C02206AE;
-IL2CPP_EXTERN_C String_t* _stringLiteral62225F6F884C393363DFFD4A1460B1E04A47B849;
 IL2CPP_EXTERN_C String_t* _stringLiteral65A3EB8152D46D206E084E9FFE53191BE45C5214;
 IL2CPP_EXTERN_C String_t* _stringLiteral674D566FF6101DD0EF36AC986DEF66156B7E9A54;
 IL2CPP_EXTERN_C String_t* _stringLiteral686B62DC85A76B4D986AD7F54097517BC28F71E3;
@@ -738,10 +733,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9D6B66BF93AFC12DE5805D06BA0ABBD6C3659968
 IL2CPP_EXTERN_C String_t* _stringLiteralA83B8EF1A0DD0928ED5318216A030FC69A13643E;
 IL2CPP_EXTERN_C String_t* _stringLiteralAE35E7CDB50A871944FB3A88196A66D0F3973623;
 IL2CPP_EXTERN_C String_t* _stringLiteralAF5142FF0B1A63920E63A3932A914E1B5CE71F65;
-IL2CPP_EXTERN_C String_t* _stringLiteralB169CADC16F262AB9C08937BF9AF45493AF28B88;
 IL2CPP_EXTERN_C String_t* _stringLiteralB46971E487185F55C44F40E1807F8CFF6C46F543;
 IL2CPP_EXTERN_C String_t* _stringLiteralB4FE860573CD6E03F0D1A4378C1F330A3820D8C9;
-IL2CPP_EXTERN_C String_t* _stringLiteralB5A055E5D5F51E8BD0855681B20846FD39F18403;
 IL2CPP_EXTERN_C String_t* _stringLiteralB5E7C88BBEDF0E7350F28D747D580986D17E7804;
 IL2CPP_EXTERN_C String_t* _stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC09616FC7A1F15CD91C601854596281EF11A6AC;
@@ -785,10 +778,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Where_TisCollider_t1CC3163924FCD
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m3B3C11550E48AA36AFF82788636EB163CC51FEE6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisInteractable_tC2DBF86B740EB02367138A8BCF634242CA3B93D2_m0CDEA8EF47A15EFA3EB104C354E834030C56E3D3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m026EB44DB6238F13E2AFBECF1FBBE924CB1B040A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GestureDetection_U3CStartU3Eb__6_0_m4DC340F87578F6DE34098C6567E6D51A01BC0C2C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GestureDetection_U3CStartU3Eb__6_1_m05FE72693FCF17941A7DD8D18210347018CAD1ED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GestureDetection_U3CStartU3Eb__6_2_m3B5FBC00A51BE7CBBEACADC63306DBC09E5BEAAD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GestureDetection_U3CStartU3Eb__6_3_mB23CD2BFC8023A19850607B276A0949117B5B49A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Hand_OnInputFocusAcquired_m0812ABDFE30CE9348919181D77BB8F5E4F5A3490_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Hand_OnInputFocusLost_mD3FFDE39026F3EEFDFE8212B6E1FE3B064EB8C52_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InteractionHandler_OnRequestStarted_m32E24EF32FDBFFCD6BC3AB08402018738A751D32_RuntimeMethod_var;
@@ -4203,21 +4192,6 @@ struct Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32  : public MonoBeha
 	bool ___U3CIsRootInteractorDriverU3Ek__BackingField_25;
 };
 
-// Oculus.Interaction.ActiveStateSelector
-struct ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.MonoBehaviour Oculus.Interaction.ActiveStateSelector::_activeState
-	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ____activeState_4;
-	// Oculus.Interaction.IActiveState Oculus.Interaction.ActiveStateSelector::ActiveState
-	RuntimeObject* ___ActiveState_5;
-	// System.Boolean Oculus.Interaction.ActiveStateSelector::_selecting
-	bool ____selecting_6;
-	// System.Action Oculus.Interaction.ActiveStateSelector::WhenSelected
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___WhenSelected_7;
-	// System.Action Oculus.Interaction.ActiveStateSelector::WhenUnselected
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___WhenUnselected_8;
-};
-
 // UnityEngine.AudioSource
 struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
 {
@@ -4346,23 +4320,6 @@ struct DebugUIBuilder_tC18B19AE08445BA1378C7DABB0E4858217E02E71_StaticFields
 {
 	// DebugUIBuilder DebugUIBuilder::instance
 	DebugUIBuilder_tC18B19AE08445BA1378C7DABB0E4858217E02E71* ___instance_20;
-};
-
-// Oculus.Interaction.Samples.GestureDetection
-struct GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Boolean Oculus.Interaction.Samples.GestureDetection::isThumbup
-	bool ___isThumbup_4;
-	// System.Boolean Oculus.Interaction.Samples.GestureDetection::isThumbdown
-	bool ___isThumbdown_5;
-	// Oculus.Interaction.ActiveStateSelector Oculus.Interaction.Samples.GestureDetection::thumbup
-	ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56* ___thumbup_6;
-	// Oculus.Interaction.ActiveStateSelector Oculus.Interaction.Samples.GestureDetection::thumbdown
-	ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56* ___thumbdown_7;
-	// UnityEngine.GameObject Oculus.Interaction.Samples.GestureDetection::cube
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cube_8;
-	// UnityEngine.Vector3 Oculus.Interaction.Samples.GestureDetection::scale_inc
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scale_inc_9;
 };
 
 // OVRTouchSample.Hand
@@ -7380,14 +7337,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OVRP_1_30_0_ovrp_SendEvent2_mADD8D5430C297F0DBEA7B8D72C50AE472FA2EA47 (String_t* ___name0, String_t* ___param1, String_t* ___source2, const RuntimeMethod* method) ;
 // System.IntPtr Oculus.Avatar.CAPI::_ovrp_GetVersion()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CAPI__ovrp_GetVersion_m55D00A449472E1FA8092BEC8B408CE79DD801027 (const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.ActiveStateSelector::add_WhenSelected(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActiveStateSelector_add_WhenSelected_m8573112236A5E1BE9210411A43006A785D5C744B (ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.ActiveStateSelector::add_WhenUnselected(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActiveStateSelector_add_WhenUnselected_m17BB61289D6B73D6074E3DC4973C17CCF21E8D57 (ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.Samples.GestureDetection::Sizeup()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_Sizeup_m0233FE420D9783E24DA3C7A9DD73AA13D896B1AB (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) ;
-// System.Void Oculus.Interaction.Samples.GestureDetection::Sizedown()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_Sizedown_m4F79CA2C452109B50EFD07767AA4F7561831289B (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___target0, const RuntimeMethod* method) ;
 // System.Void System.IO.TextWriter::Dispose()
@@ -21904,236 +21853,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRP_1_30_0__cctor_m5DBD5771C7C2C36147AC
 		Version__ctor_m7D8EE608025AE8D7AD8867718BC0AC96A2CFC1F5(L_0, 1, ((int32_t)30), 0, NULL);
 		((OVRP_1_30_0_tA483F6EBCC533D0BD82270B4CEC48F7A1FDE15F6_StaticFields*)il2cpp_codegen_static_fields_for(OVRP_1_30_0_tA483F6EBCC533D0BD82270B4CEC48F7A1FDE15F6_il2cpp_TypeInfo_var))->___version_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((OVRP_1_30_0_tA483F6EBCC533D0BD82270B4CEC48F7A1FDE15F6_StaticFields*)il2cpp_codegen_static_fields_for(OVRP_1_30_0_tA483F6EBCC533D0BD82270B4CEC48F7A1FDE15F6_il2cpp_TypeInfo_var))->___version_0), (void*)L_0);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Samples.GestureDetection::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_Start_mB545EA4D22CF581263AE20B548FD057D63700761 (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GestureDetection_U3CStartU3Eb__6_0_m4DC340F87578F6DE34098C6567E6D51A01BC0C2C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GestureDetection_U3CStartU3Eb__6_1_m05FE72693FCF17941A7DD8D18210347018CAD1ED_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GestureDetection_U3CStartU3Eb__6_2_m3B5FBC00A51BE7CBBEACADC63306DBC09E5BEAAD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GestureDetection_U3CStartU3Eb__6_3_mB23CD2BFC8023A19850607B276A0949117B5B49A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// thumbup.WhenSelected += () => {isThumbup = true;};
-		ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56* L_0 = __this->___thumbup_6;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)GestureDetection_U3CStartU3Eb__6_0_m4DC340F87578F6DE34098C6567E6D51A01BC0C2C_RuntimeMethod_var), NULL);
-		NullCheck(L_0);
-		ActiveStateSelector_add_WhenSelected_m8573112236A5E1BE9210411A43006A785D5C744B(L_0, L_1, NULL);
-		// thumbup.WhenUnselected += () => {isThumbup = false;};
-		ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56* L_2 = __this->___thumbup_6;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)GestureDetection_U3CStartU3Eb__6_1_m05FE72693FCF17941A7DD8D18210347018CAD1ED_RuntimeMethod_var), NULL);
-		NullCheck(L_2);
-		ActiveStateSelector_add_WhenUnselected_m17BB61289D6B73D6074E3DC4973C17CCF21E8D57(L_2, L_3, NULL);
-		// thumbdown.WhenSelected += () => {isThumbdown = true;};
-		ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56* L_4 = __this->___thumbdown_7;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_5, __this, (intptr_t)((void*)GestureDetection_U3CStartU3Eb__6_2_m3B5FBC00A51BE7CBBEACADC63306DBC09E5BEAAD_RuntimeMethod_var), NULL);
-		NullCheck(L_4);
-		ActiveStateSelector_add_WhenSelected_m8573112236A5E1BE9210411A43006A785D5C744B(L_4, L_5, NULL);
-		// thumbdown.WhenUnselected += () => {isThumbdown = false;};
-		ActiveStateSelector_t4E5C386E75A1AEAB9729304B0BFC06441CD92A56* L_6 = __this->___thumbdown_7;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		NullCheck(L_7);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_7, __this, (intptr_t)((void*)GestureDetection_U3CStartU3Eb__6_3_mB23CD2BFC8023A19850607B276A0949117B5B49A_RuntimeMethod_var), NULL);
-		NullCheck(L_6);
-		ActiveStateSelector_add_WhenUnselected_m17BB61289D6B73D6074E3DC4973C17CCF21E8D57(L_6, L_7, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Samples.GestureDetection::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_Update_m00923637CFA2B2045080CA1AB70AF7952EFE5443 (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	{
-		// if(isThumbup) Sizeup();
-		bool L_0 = __this->___isThumbup_4;
-		if (!L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		// if(isThumbup) Sizeup();
-		GestureDetection_Sizeup_m0233FE420D9783E24DA3C7A9DD73AA13D896B1AB(__this, NULL);
-	}
-
-IL_000e:
-	{
-		// if(isThumbdown) Sizedown();
-		bool L_1 = __this->___isThumbdown_5;
-		if (!L_1)
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		// if(isThumbdown) Sizedown();
-		GestureDetection_Sizedown_m4F79CA2C452109B50EFD07767AA4F7561831289B(__this, NULL);
-	}
-
-IL_001c:
-	{
-		// }
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Samples.GestureDetection::Sizeup()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_Sizeup_m0233FE420D9783E24DA3C7A9DD73AA13D896B1AB (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral62225F6F884C393363DFFD4A1460B1E04A47B849);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// cube.transform.localScale += scale_inc;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___cube_8;
-		NullCheck(L_0);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
-		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = L_1;
-		NullCheck(L_2);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
-		L_3 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_2, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___scale_inc_9;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
-		L_5 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_3, L_4, NULL);
-		NullCheck(L_2);
-		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_2, L_5, NULL);
-		// Debug.Log("thumb up detected");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral62225F6F884C393363DFFD4A1460B1E04A47B849, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Samples.GestureDetection::Sizedown()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_Sizedown_m4F79CA2C452109B50EFD07767AA4F7561831289B (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB169CADC16F262AB9C08937BF9AF45493AF28B88);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5A055E5D5F51E8BD0855681B20846FD39F18403);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (cube.transform.localScale.y > 0)
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___cube_8;
-		NullCheck(L_0);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
-		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
-		NullCheck(L_1);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
-		L_2 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_1, NULL);
-		float L_3 = L_2.___y_3;
-		if ((!(((float)L_3) > ((float)(0.0f)))))
-		{
-			goto IL_0047;
-		}
-	}
-	{
-		// cube.transform.localScale -= scale_inc;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___cube_8;
-		NullCheck(L_4);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
-		L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = L_5;
-		NullCheck(L_6);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
-		L_7 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_6, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = __this->___scale_inc_9;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
-		L_9 = Vector3_op_Subtraction_m1690F44F6DC92B770A940B6CF8AE0535625A9824_inline(L_7, L_8, NULL);
-		NullCheck(L_6);
-		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_6, L_9, NULL);
-		// Debug.Log("thumb down detected");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralB169CADC16F262AB9C08937BF9AF45493AF28B88, NULL);
-	}
-
-IL_0047:
-	{
-		// Debug.Log("thumb down is detected but I am too small to shrink!");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralB5A055E5D5F51E8BD0855681B20846FD39F18403, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Samples.GestureDetection::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection__ctor_m6BEA88F72C5ACBD5C32213898171B8E8BE4E60DF (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	{
-		// private Vector3 scale_inc = new Vector3(0.01f,0.01f,0.01f);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.00999999978f), (0.00999999978f), (0.00999999978f), /*hidden argument*/NULL);
-		__this->___scale_inc_9 = L_0;
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Samples.GestureDetection::<Start>b__6_0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_U3CStartU3Eb__6_0_m4DC340F87578F6DE34098C6567E6D51A01BC0C2C (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	{
-		// thumbup.WhenSelected += () => {isThumbup = true;};
-		__this->___isThumbup_4 = (bool)1;
-		// thumbup.WhenSelected += () => {isThumbup = true;};
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Samples.GestureDetection::<Start>b__6_1()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_U3CStartU3Eb__6_1_m05FE72693FCF17941A7DD8D18210347018CAD1ED (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	{
-		// thumbup.WhenUnselected += () => {isThumbup = false;};
-		__this->___isThumbup_4 = (bool)0;
-		// thumbup.WhenUnselected += () => {isThumbup = false;};
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Samples.GestureDetection::<Start>b__6_2()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_U3CStartU3Eb__6_2_m3B5FBC00A51BE7CBBEACADC63306DBC09E5BEAAD (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	{
-		// thumbdown.WhenSelected += () => {isThumbdown = true;};
-		__this->___isThumbdown_5 = (bool)1;
-		// thumbdown.WhenSelected += () => {isThumbdown = true;};
-		return;
-	}
-}
-// System.Void Oculus.Interaction.Samples.GestureDetection::<Start>b__6_3()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureDetection_U3CStartU3Eb__6_3_mB23CD2BFC8023A19850607B276A0949117B5B49A (GestureDetection_tAABD51014A644CFDB7B6F386C3B3EF39BDF6DE70* __this, const RuntimeMethod* method) 
-{
-	{
-		// thumbdown.WhenUnselected += () => {isThumbdown = false;};
-		__this->___isThumbdown_5 = (bool)0;
-		// thumbdown.WhenUnselected += () => {isThumbdown = false;};
 		return;
 	}
 }

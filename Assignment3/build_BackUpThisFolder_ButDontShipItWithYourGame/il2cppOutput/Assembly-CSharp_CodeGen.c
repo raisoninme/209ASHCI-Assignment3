@@ -3852,43 +3852,25 @@ extern void LoggingDelegate_EndInvoke_m34CA5EDB41275E676C1E7C12529840960B8A944D 
 extern void OVRP_1_30_0_ovrp_SendEvent2_mADD8D5430C297F0DBEA7B8D72C50AE472FA2EA47 (void);
 // 0x00000795 System.Void Oculus.Avatar.CAPI/OVRP_1_30_0::.cctor()
 extern void OVRP_1_30_0__cctor_m5DBD5771C7C2C36147AC476D3E8A9E165E15ABDA (void);
-// 0x00000796 System.Void Oculus.Interaction.Samples.GestureDetection::Start()
-extern void GestureDetection_Start_mB545EA4D22CF581263AE20B548FD057D63700761 (void);
-// 0x00000797 System.Void Oculus.Interaction.Samples.GestureDetection::Update()
-extern void GestureDetection_Update_m00923637CFA2B2045080CA1AB70AF7952EFE5443 (void);
-// 0x00000798 System.Void Oculus.Interaction.Samples.GestureDetection::Sizeup()
-extern void GestureDetection_Sizeup_m0233FE420D9783E24DA3C7A9DD73AA13D896B1AB (void);
-// 0x00000799 System.Void Oculus.Interaction.Samples.GestureDetection::Sizedown()
-extern void GestureDetection_Sizedown_m4F79CA2C452109B50EFD07767AA4F7561831289B (void);
-// 0x0000079A System.Void Oculus.Interaction.Samples.GestureDetection::.ctor()
-extern void GestureDetection__ctor_m6BEA88F72C5ACBD5C32213898171B8E8BE4E60DF (void);
-// 0x0000079B System.Void Oculus.Interaction.Samples.GestureDetection::<Start>b__6_0()
-extern void GestureDetection_U3CStartU3Eb__6_0_m4DC340F87578F6DE34098C6567E6D51A01BC0C2C (void);
-// 0x0000079C System.Void Oculus.Interaction.Samples.GestureDetection::<Start>b__6_1()
-extern void GestureDetection_U3CStartU3Eb__6_1_m05FE72693FCF17941A7DD8D18210347018CAD1ED (void);
-// 0x0000079D System.Void Oculus.Interaction.Samples.GestureDetection::<Start>b__6_2()
-extern void GestureDetection_U3CStartU3Eb__6_2_m3B5FBC00A51BE7CBBEACADC63306DBC09E5BEAAD (void);
-// 0x0000079E System.Void Oculus.Interaction.Samples.GestureDetection::<Start>b__6_3()
-extern void GestureDetection_U3CStartU3Eb__6_3_mB23CD2BFC8023A19850607B276A0949117B5B49A (void);
-// 0x0000079F System.Void Oculus.Interaction.HandPosing.DataCollection::Awake()
+// 0x00000796 System.Void Oculus.Interaction.HandPosing.DataCollection::Awake()
 extern void DataCollection_Awake_m5787F0FC22058A289AA4E2C73A3686733140879F (void);
-// 0x000007A0 System.Void Oculus.Interaction.HandPosing.DataCollection::OnApplicationQuit()
+// 0x00000797 System.Void Oculus.Interaction.HandPosing.DataCollection::OnApplicationQuit()
 extern void DataCollection_OnApplicationQuit_m4061417AD2AB43C92C7341800897244435BD6244 (void);
-// 0x000007A1 System.Void Oculus.Interaction.HandPosing.DataCollection::OnApplicationPause(System.Boolean)
+// 0x00000798 System.Void Oculus.Interaction.HandPosing.DataCollection::OnApplicationPause(System.Boolean)
 extern void DataCollection_OnApplicationPause_mBF75824F2BEB3E0F33187BA10C926201082A9F00 (void);
-// 0x000007A2 System.Void Oculus.Interaction.HandPosing.DataCollection::Start()
+// 0x00000799 System.Void Oculus.Interaction.HandPosing.DataCollection::Start()
 extern void DataCollection_Start_mF33AC275E04A32B17208B4177262909285F38939 (void);
-// 0x000007A3 System.Void Oculus.Interaction.HandPosing.DataCollection::Update()
+// 0x0000079A System.Void Oculus.Interaction.HandPosing.DataCollection::Update()
 extern void DataCollection_Update_mACD2A075EB6869FA23CBE5CC34A630262C08365D (void);
-// 0x000007A4 System.Void Oculus.Interaction.HandPosing.DataCollection::WriteToFile(System.Single,System.Single,System.Single)
+// 0x0000079B System.Void Oculus.Interaction.HandPosing.DataCollection::WriteToFile(System.Single,System.Single,System.Single)
 extern void DataCollection_WriteToFile_mBCD164B23DDC95E578DDA06F9680823B14B93CD1 (void);
-// 0x000007A5 System.Double Oculus.Interaction.HandPosing.DataCollection::get_Now()
+// 0x0000079C System.Double Oculus.Interaction.HandPosing.DataCollection::get_Now()
 extern void DataCollection_get_Now_mC2C00D83BA3DFF4A273AA910C825443D06BEA7B9 (void);
-// 0x000007A6 System.Void Oculus.Interaction.HandPosing.DataCollection::ReturnToOriginal()
+// 0x0000079D System.Void Oculus.Interaction.HandPosing.DataCollection::ReturnToOriginal()
 extern void DataCollection_ReturnToOriginal_mEB084C3AC1960403DA832389A0F66DB0DE35F07D (void);
-// 0x000007A7 System.Void Oculus.Interaction.HandPosing.DataCollection::.ctor()
+// 0x0000079E System.Void Oculus.Interaction.HandPosing.DataCollection::.ctor()
 extern void DataCollection__ctor_m84793EB1779A764EE2071F39384C92E63FB8F56C (void);
-static Il2CppMethodPointer s_methodPointers[1959] = 
+static Il2CppMethodPointer s_methodPointers[1950] = 
 {
 	OvrAvatarTestDriver_GetMalibuControllerPose_mE2FF4E7C876B6FF0054DF5D0B1DF919333D441BC,
 	OvrAvatarTestDriver_GetControllerPose_mD99BA66B72AF825BBE04D4B8D87982E4A7DF1ABB,
@@ -5831,15 +5813,6 @@ static Il2CppMethodPointer s_methodPointers[1959] =
 	LoggingDelegate_EndInvoke_m34CA5EDB41275E676C1E7C12529840960B8A944D,
 	OVRP_1_30_0_ovrp_SendEvent2_mADD8D5430C297F0DBEA7B8D72C50AE472FA2EA47,
 	OVRP_1_30_0__cctor_m5DBD5771C7C2C36147AC476D3E8A9E165E15ABDA,
-	GestureDetection_Start_mB545EA4D22CF581263AE20B548FD057D63700761,
-	GestureDetection_Update_m00923637CFA2B2045080CA1AB70AF7952EFE5443,
-	GestureDetection_Sizeup_m0233FE420D9783E24DA3C7A9DD73AA13D896B1AB,
-	GestureDetection_Sizedown_m4F79CA2C452109B50EFD07767AA4F7561831289B,
-	GestureDetection__ctor_m6BEA88F72C5ACBD5C32213898171B8E8BE4E60DF,
-	GestureDetection_U3CStartU3Eb__6_0_m4DC340F87578F6DE34098C6567E6D51A01BC0C2C,
-	GestureDetection_U3CStartU3Eb__6_1_m05FE72693FCF17941A7DD8D18210347018CAD1ED,
-	GestureDetection_U3CStartU3Eb__6_2_m3B5FBC00A51BE7CBBEACADC63306DBC09E5BEAAD,
-	GestureDetection_U3CStartU3Eb__6_3_mB23CD2BFC8023A19850607B276A0949117B5B49A,
 	DataCollection_Awake_m5787F0FC22058A289AA4E2C73A3686733140879F,
 	DataCollection_OnApplicationQuit_m4061417AD2AB43C92C7341800897244435BD6244,
 	DataCollection_OnApplicationPause_mBF75824F2BEB3E0F33187BA10C926201082A9F00,
@@ -5875,7 +5848,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[11] =
 	{ 0x06000149, CopyTextureParams__ctor_mFDBBFAC0A6A4516DDDA2D278BC7C7FF5082FEAC5_AdjustorThunk },
 	{ 0x0600014A, TextureSet__ctor_mF0DA877361092E5093C04F4280B93985CDF70423_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[1959] = 
+static const int32_t s_InvokerIndices[1950] = 
 {
 	4642,
 	4642,
@@ -7820,15 +7793,6 @@ static const int32_t s_InvokerIndices[1959] =
 	7999,
 	5361,
 	5361,
-	5361,
-	5361,
-	5361,
-	5361,
-	5361,
-	5361,
-	5361,
-	5361,
-	5361,
 	4263,
 	5361,
 	5361,
@@ -7907,7 +7871,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	1959,
+	1950,
 	s_methodPointers,
 	11,
 	s_adjustorThunks,

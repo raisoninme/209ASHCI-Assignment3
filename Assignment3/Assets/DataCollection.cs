@@ -40,12 +40,7 @@ namespace Oculus.Interaction.HandPosing
         private float initialPos; // the initial position of the grabbableCube
         private float initialTime; // the initial timestamp of user interaction (moving the grabbableCube from A to B)
         private float startPositionX = -0.2f; // the start position of the grabbableCube
-        /*
-        This template script only creates one grabbableCube. To investigate Fitts' Law, 
-        we need to create many more grabbableCubes of various sizes, and move them to various distances.
-        
-        Please add variables here as per your need.  
-        */
+
         private float moveSpeed = 2f; // the speed of the grabbableCube moving back to the original position
         private Vector3 originalPosition; // the original position of the grabbableCube
 
@@ -133,7 +128,7 @@ namespace Oculus.Interaction.HandPosing
             isEnd = wasGrabbed && !isGrabbed;
             // print("isEnd: "+ isEnd);
             
-            // if the overlap between the grabbableCube and the targetCube is less than 0.8 * grabWidth, the targetCube's rim color will change to red
+            // if the overlap between the grabbableCube and the targetCube is more than 80%, change the color of the targetCube to green
             if (Mathf.Abs(grabbableCube.transform.position.x - targetCube.transform.position.x) < 0.2 * grabWidth){
                 targetCube.GetComponent<Renderer>().material.color = Color.green;
             }
@@ -175,7 +170,7 @@ namespace Oculus.Interaction.HandPosing
                             targetCube.transform.position = new Vector3(0.2f, grabbableCube.transform.position.y, grabbableCube.transform.position.z);
                             if(grabWidthCounter < 3){
                                 grabWidthCounter += 1;
-                                // move the grabbableCube and targetCube to the next size
+                                // change the size of the grabbableCube and the targetCube according to the counter
                                 grabbableCube.transform.localScale = new Vector3(grabbableCube.transform.localScale.x + 0.02f, grabbableCube.transform.localScale.y, grabbableCube.transform.localScale.z);
                                 targetCube.transform.localScale = new Vector3(targetCube.transform.localScale.x + 0.02f, targetCube.transform.localScale.y, targetCube.transform.localScale.z);
                             }
